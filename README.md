@@ -1,5 +1,4 @@
-# Schoolapp
-App that lets you make cluster in reduced dimension using tSNE based on selected variables.
+The App that lets you make cluster in reduced dimension using tSNE based on selected variables.
 
 # Data source
 The data used is coming from :
@@ -10,7 +9,12 @@ Only the maths grades file is used here for demonstration only.
 make cluster in reduced dimension using tSNE and a k-means like clustering algorithm with a custom distance that handles mixed type variables
 
 # How to get the app
-The image of the app is available at https://hub.docker.com/r/dimenoste/clusterapp
+
+1st  :
+You can dowload the code from github open the ui.R and run the app in RStudio
+
+2nd method : 
+Or directly the image of the app available at https://hub.docker.com/r/dimenoste/clusterapp
 To get the image and run it locally on your computer
 you need docker installed on your machine.
 Enter in your terminal :
