@@ -1,0 +1,13 @@
+app <- ShinyDriver$new("../../", seed = 1234)
+app$snapshotInit("mytest")
+
+app$setInputs(variables = "address")
+app$setInputs(variables = c("address", "Medu"))
+app$setInputs(variables = c("address", "Medu", "Mjob"))
+app$setInputs(variables = c("address", "Medu", "Mjob", "age"))
+app$setInputs(variables = c("address", "Medu", "Mjob", "age", "Pstatus"))
+app$setInputs(dimension = 3)
+app$setInputs(dimension = 2)
+app$setInputs(variables = c("address", "Medu", "Mjob", "age", "Pstatus", "famsup"))
+app$setInputs(variables = c("address", "Medu", "age", "Pstatus", "famsup"))
+app$snapshot()
