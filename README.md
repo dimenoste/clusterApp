@@ -20,10 +20,10 @@ you need docker installed on your machine.
 Enter in your terminal :
 1. docker pull dimenoste/clusterapp:latest
 2. docker run -d -p 3838:3838 dimenoste/clusterapp
-3. go to your brower and enter 127.0.0.1:3838 in the url search bar.
+3. go to your browser and enter 127.0.0.1:3838 in the url search bar.
 
 Warning : 
-Be sure, the port 3838 is free
+Be sure, the port 3838 is free.
 The app size is 1.72GB. It can be slow to get it opened locally. 
 If after 3 minutes, the app is not visible in your browser, you have to refresh it !
 
