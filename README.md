@@ -35,8 +35,8 @@ The plots are interactive and you can hover over the points, zoom, et ...
 As an indicator of student's performance, the final grade G3 is visible when you hover over the points with the mouse.
 
 # Test the integrity of the app
-As a sanity check,
-go check clusterApp/tests/shinytest/mytest-expected/ and see if you can replicate the output.
+As a sanity check,see if you can replicate the output from shinytest
+![plot](./tests/shinytest/mytest-expected/001.png)
 
 # Stack
 app made in "Shiny" with "renv" a library that lets you isolate packages by project.
